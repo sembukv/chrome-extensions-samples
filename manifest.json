@@ -1,14 +1,10 @@
 {
-  "manifest_version": 2,
-  "name": "Email Automation",
+  "manifest_version": 3,
+  "name": "Hello Extensions",
+  "description": "Base Level Extension",
   "version": "1.0",
-  "description": "Automates email sends",
-  "browser_action": {
-    "default_title": "Email Automation",
-    "default_popup": "popup.html"
-  },
-  "permissions": [
-    "tabs",
-    "https://mail.google.com/*"
-  ]
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  }
 }
