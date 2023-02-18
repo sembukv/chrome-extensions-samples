@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Email Automation",
+  "version": "1.0",
+  "description": "Automates email sends",
+  "browser_action": {
+    "default_title": "Email Automation",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://mail.google.com/*"
+  ]
+}
